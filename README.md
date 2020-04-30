@@ -75,7 +75,7 @@ int main(void)
   /* USER CODE BEGIN 1 */
 	int a;
 	a=0;
-	// Se van a activar los puertos A,B
+	// Se van a activar los puertos A
 		RCC->AHB2ENR = 0x00000001;
 
 		//Se van a declarar cuales son las entradas y las salidas del sistema
@@ -298,18 +298,17 @@ int main(void)
   /* USER CODE BEGIN 1 */
 	int a;
 	a=0;
-	// Se van a activar los puertos A,B
+	// Se van a activar los puertos A
 		RCC->AHB2ENR = 0x00000001;
 
 		//Se van a declarar cuales son las entradas y las salidas del sistema
 
-		// Para el banco A se configuran PA5, PA6 y PA7
+		// Para el banco A se configuran PA5
 		GPIOA->MODER &= 0xABFFFFFF;		// Se realiza el reset
-		GPIOA->MODER &= 0xFFFF57FF;		// Se escribe 01 en los pines 5,6 y 7 ya que son salidas
-
+		GPIOA->MODER &= 0xFFFFF4FF;		// Se escribe 01 en el pin 5
 		//Inicialización de los valores
 		// Para el banco A
-		GPIOA->ODR |= 0x00E0;			//0x00E0 se pone 1 a los bits 5,6,7
+		GPIOA->ODR |= 0x0020;			//0x0020 se pone 1 a el bit 5
 
 
   /* USER CODE END 1 */
