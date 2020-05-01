@@ -1391,7 +1391,7 @@ int main(void)
 		GPIOB->ODR |= 0x0060;			//0x0060 se pone 1 en los bits 5 y 6
 
 		// Para el banco C
-		GPIOC->ODR |= 0x0280;			//0x0240 se pone 1 en los bits 5 y 6
+		GPIOC->ODR |= 0x0280;			//0x0280 se pone 1 en los bits 5 y 6
 
 
   /* USER CODE END 1 */
