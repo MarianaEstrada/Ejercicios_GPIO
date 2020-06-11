@@ -2,6 +2,13 @@
 
 ## Semáforo
 
+Se va realizaun semáforo con las siguientes caracteristicas:
+
+
+
+
+
+
 ~~~
 /* USER CODE BEGIN Header */
 /**
