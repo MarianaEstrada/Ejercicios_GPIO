@@ -1320,7 +1320,7 @@ Se van a realizar las siguientes secuencias de luces:
 
 ### Secuencia 2.
 
-![sec2](https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/sec2.PNG)
+![sec2b](https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/sec2b.PNG)
 
 ### Secuencia 3.
 
