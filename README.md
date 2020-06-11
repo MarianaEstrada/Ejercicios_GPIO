@@ -4,10 +4,9 @@
 
 Se va realizar un semáforo con las siguientes caracteristicas:
 
-![Semaforo] (https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/Semaforo.PNG)
+![Semaforo](https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/Semaforo.PNG)
 
-
-
+A continuación se presenta el código implementado: 
 ~~~
 /* USER CODE BEGIN Header */
 /**
@@ -231,6 +230,18 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ## Código morse
 
+Se va a realizar el abcedario en código morse.
+
+![CM](https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/CM.PNG)
+
+Donde :
+
+* 1 seg para cambio de símbolo
+* 2seg para una línea
+* 3 seg para un punto
+* 4 seg para cambio de letra
+
+A continuación se presenta el código implementado: 
 ~~~
 /* USER CODE BEGIN Header */
 /**
@@ -1300,6 +1311,20 @@ void assert_failed(uint8_t *file, uint32_t line)
 ~~~
 
 ## Feliz navidad
+
+Se van a realizar las siguientes secuencias de luces:
+
+### Secuencia 1.
+
+![sec1](https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/sec1.PNG)
+
+### Secuencia 2.
+
+![sec2](https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/sec2.PNG)
+
+### Secuencia 3.
+
+![sec3](https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/sec3.PNG)
 
 ~~~
 /* USER CODE BEGIN Header */
