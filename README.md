@@ -1324,7 +1324,7 @@ Se van a realizar las siguientes secuencias de luces:
 
 ### Secuencia 3.
 
-![sec3](https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/sec3.PNG)
+![sec_3_b](https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/sec_3_b.PNG)
 
 ~~~
 /* USER CODE BEGIN Header */
