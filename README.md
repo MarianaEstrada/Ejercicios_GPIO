@@ -2,8 +2,9 @@
 
 ## Semáforo
 
-Se va realizaun semáforo con las siguientes caracteristicas:
+Se va realizar un semáforo con las siguientes caracteristicas:
 
+![Semaforo](https://https://github.com/MarianaEstrada/Ejercicios_GPIO/blob/master/Imagenes/Semaforo.PNG)
 
 
 
